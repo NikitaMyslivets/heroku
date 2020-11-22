@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath movie movie.wsgi --log-file -
