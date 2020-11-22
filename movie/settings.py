@@ -26,7 +26,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '_c=98xmb$&v49brt1!gz^xv=d1%#p*xn%j5#(wnjsmv)7g9k#v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['simplemovie101.herokuapp.com', 'localhost']
 
