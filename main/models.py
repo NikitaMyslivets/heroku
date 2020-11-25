@@ -10,6 +10,7 @@ class Movie(models.Model):
     release_date = models.DateField()
     averageRating = models.FloatField(default=0)
     image = models.URLField(default=None, null=True)
+    #video = models.FilePathField(null=False)
 
     def __str__(self):
         return self.name
